@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+void ma()
+{
+int a,b,n;
+for(a=0;a<4;a++)
+{
+for(b=0;b<25;b++)
+{
+printf(" ");
+}
+printf("|\t\t|");
+printf("\n");
+}}
+void may()
+{
+int c,d;
+for(c=0;c<1;c++)
+{
+for(d=0;d<17;d++)
+{
+printf(" ");
+}
+printf("-------- -------------- --------\n");
+}}
+void main()
+{
+clrscr();
+ma();
+may();
+ma();
+may();
+ma();
+getch();
+}
+
